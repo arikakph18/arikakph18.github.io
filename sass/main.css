@@ -1,0 +1,165 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  height: 70px;
+}
+.navbar .container .collapse .navbar-nav .nav-item {
+  margin-right: 20px;
+  font-size: 16px;
+}
+.navbar .container .collapse .navbar-nav .nav-item .active {
+  color: #40B286;
+  font-size: 18px;
+}
+.navbar .container .collapse .navbar-nav :hover {
+  color: #40B286;
+}
+.navbar .container .collapse .btn-auth .btn-success {
+  background-color: #40B286;
+  border-color: #40B286;
+  border-radius: 50px;
+  width: 130px;
+  font-size: medium;
+}
+.navbar .container .collapse .btn-auth .btn-sign-in {
+  background-color: #d5f0d8;
+  border-color: #cde5d0;
+  color: #40B286;
+  border-radius: 50px;
+  width: 130px;
+  margin-right: 12px;
+  font-size: medium;
+}
+@media (max-width: 913px) {
+  .navbar .container .collapse {
+    margin-top: 20px;
+  }
+}
+
+.hero-section {
+  margin-top: 80px;
+}
+.hero-section .container .row .gld {
+  color: #40B286;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+}
+.hero-section .container .row h3 {
+  margin-top: 22px;
+  font-weight: bold;
+  font-size: 44px;
+}
+.hero-section .container .row .desc {
+  font-size: 16px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+.hero-section .container .row .btn-success {
+  border-radius: 50px;
+  background-color: #40B286;
+  width: 150px;
+  border-color: #40B286;
+}
+@media (max-width: 913px) {
+  .hero-section .container .gmbr {
+    margin-top: 30px;
+  }
+}
+
+.service {
+  margin-top: 80px;
+  margin-bottom: 128px;
+}
+.service .container .head-service {
+  text-align: center !important;
+}
+.service .container .head-service .text {
+  color: #40B286;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.service .container .head-service h4 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.service .container .img-produk {
+  border-radius: 15px;
+}
+.service .container .nama-training {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 22px;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 110px;
+}
+.service .container .harga {
+  color: #40B286;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+.service .container .harga span {
+  text-decoration: line-through;
+  font-weight: 400;
+}
+.service .container .btn-success {
+  border-radius: 50px;
+  background-color: #40B286;
+  width: 300px;
+  border-color: #40B286;
+  margin-top: 40px;
+}
+
+.support {
+  margin-bottom: 134px;
+}
+.support .container {
+  text-align: center;
+}
+
+.blog {
+  margin-bottom: 128px;
+}
+.blog .container .row .kunjungi .blog-kami {
+  color: #31B380;
+  font-size: 16px;
+  font-weight: 600;
+}
+.blog .container .row .kunjungi h3 {
+  color: #211B3D;
+  font-size: 30px;
+  font-weight: 600;
+}
+.blog .container .row .tombol {
+  text-align: right;
+}
+.blog .container .konten {
+  margin-top: 80px;
+}
+.blog .container .konten .gambar {
+  text-align: center;
+}
+.blog .container .konten .gambar .img-fluid {
+  border-radius: 15px;
+}
+.blog .container .konten .judul-blog {
+  padding-left: 25px;
+}
+.blog .container .konten .judul-blog .tanggal {
+  font-size: 20px;
+  color: #40B286;
+  font-weight: 400;
+  margin-top: 33px;
+}
+.blog .container .konten .judul-blog .nama-blog {
+  font-size: 22px;
+  color: #000;
+  font-weight: bold;
+  margin-top: 16px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=main.css.map */

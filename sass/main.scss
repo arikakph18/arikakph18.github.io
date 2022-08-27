@@ -1,0 +1,235 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+  height: 70px;
+
+  .container{
+
+    .collapse{
+
+      .navbar-nav{
+
+      .nav-item{
+        margin-right: 20px;
+        font-size: 16px;
+
+        .active{
+          color: #40B286;
+          font-size: 18px;
+
+        }
+      }:hover{
+        color: #40B286;
+      }
+      
+    }
+  
+    
+      .btn-auth{
+
+        .btn-success{
+          background-color: #40B286;
+          border-color: #40B286;
+          border-radius: 50px;
+          width: 130px;
+          font-size: medium;
+
+        }
+        .btn-sign-in{
+          background-color: #d5f0d8;
+          border-color: #cde5d0;
+          color: #40B286;
+          border-radius: 50px;
+          width: 130px;
+          margin-right: 12px;
+          font-size: medium;
+        }
+      }
+    }
+    @media (max-width: 913px) 
+      {
+        .collapse{
+          margin-top: 20px;
+        }
+      }
+    
+   }
+      
+  }
+
+.hero-section{
+  margin-top: 80px;
+
+  .container{
+
+    .row{
+
+      .gld{
+        color: #40B286;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 600;
+        
+      }
+      
+      h3{
+        margin-top: 22px;
+        font-weight: bold;
+        font-size: 44px;
+      }
+      .desc{
+        // font-weight: ;
+        font-size: 16px;
+        margin-top: 22px;
+        margin-bottom: 22px;
+      }
+      .btn-success{
+        border-radius: 50px;
+        background-color: #40B286;
+        width: 150px;
+        border-color: #40B286;
+      }
+    }
+    @media (max-width: 913px) 
+      {
+        .gmbr{
+          margin-top: 30px;
+
+          
+        }
+      }
+  }
+}
+
+.service{
+  margin-top: 80px;
+  margin-bottom: 128px;
+
+  .container{
+
+      .head-service{
+          text-align: center !important;
+          .text{
+              color: #40B286;
+              font-size: 16px;
+              text-transform: uppercase;
+              font-weight: 600;
+          }
+          h4{
+          font-weight: bold;
+          font-size: 30px;
+          }
+      }
+     
+
+        .img-produk{
+         
+          border-radius: 15px;
+          
+      }
+      .nama-training{
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 22px;
+        text-transform: uppercase;
+        text-align: left;
+        padding-left: 110px;
+      }
+
+      .harga {
+        color: #40B286;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 16px;
+       
+        span{
+          // textnya biar bisa dicoret
+          text-decoration: line-through;
+          font-weight: 400;
+        }
+
+      }
+
+      // @media (max-width: 931px){
+      //     .harga{
+      //         padding-left: 100px;
+      //     }
+      // }
+
+      .btn-success{
+        border-radius: 50px;
+        background-color: #40B286;
+        width: 300px; 
+        border-color: #40B286;
+        margin-top: 40px;
+       
+      }
+
+  }
+}
+
+.support{
+  margin-bottom: 134px;
+  .container{
+      text-align: center;
+  }
+}
+
+.blog{
+  margin-bottom: 128px;
+
+  .container{
+
+      .row{
+
+          .kunjungi{
+              .blog-kami{
+                  color: #31B380;
+                  font-size: 16px;
+                  font-weight: 600;
+              }
+              h3{
+                  color: #211B3D;
+                  font-size: 30px;
+                  font-weight: 600;
+              }
+          }
+
+          .tombol{
+              text-align: right;
+          }
+      }
+
+      .konten{
+          margin-top: 80px;
+
+          .gambar{
+              text-align: center;
+              .img-fluid{
+                  border-radius: 15px;
+              }
+          }
+
+          .judul-blog{
+
+              padding-left: 25px;
+
+              .tanggal{
+                  font-size: 20px;
+                  color: #40B286;
+                  font-weight: 400;
+                  margin-top: 33px;
+              }
+              .nama-blog{
+                  font-size: 22px;
+                  color: #000;
+                  font-weight: bold;
+                  margin-top: 16px;
+                  text-transform: uppercase;
+              }
+          }
+      }
+  }
+}
